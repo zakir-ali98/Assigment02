@@ -1,0 +1,3 @@
+docker container exec -it assigment2 /bin/bash/usr/share/nginx/html/index.html
+exit
+docker volume create cont1 run -v /Users/stuff:/path/container
